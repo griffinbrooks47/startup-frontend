@@ -1,0 +1,13 @@
+@media (max-width: 1300px){
+    nav {
+        margin-inline: 1rem;
+    }
+    .center-buttons, .user-buttons {
+        display: none;
+    }
+    .hamburger-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

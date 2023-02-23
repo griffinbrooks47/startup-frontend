@@ -1,0 +1,31 @@
+body {
+    height: 2000px;
+    margin: 0;
+    font-family: 'Heebo', sans-serif;
+}
+button {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    color: black;
+    height: 50%;
+    padding-block: 1rem;
+    padding-inline: 1rem;
+}
+button:hover {
+    opacity: 70%;
+    transition: 0.2s;
+}
+ul {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+li, a, button {
+    cursor: pointer;
+}
+section {
+    background-color: beige;
+}

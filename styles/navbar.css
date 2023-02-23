@@ -1,0 +1,75 @@
+/** NAV TOP */
+.nav-top {
+    display: none;
+    height: 2.3rem;
+    background-color: #877BAE;
+}
+
+
+/** NavBar Container **/
+nav {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 1rem;
+}
+.nav-logo {
+    padding-left: 0rem;
+    padding-top: 0.1rem;
+}
+.logo {
+    max-width: 3rem;
+    max-height: 3rem;
+    padding-inline: 1rem;
+}
+.co-name {
+    padding-bottom: 0.2rem;
+    font-weight: 500;
+}
+
+/** NavBar Buttons */
+.center-buttons, .user-buttons {
+    position: relative;
+}
+nav li {
+    list-style: none;
+}
+.center-buttons li a{
+    display: block;
+    text-decoration: none;
+    margin-left: 2.1rem;
+    margin-right: 2.1rem;
+}
+.user-buttons {
+    margin-right: 1.5rem;
+}
+.user-buttons li a{
+    display: block;
+    text-decoration: none;
+    margin-left: 0rem;
+    margin-right: 1rem;
+}
+.register button{
+    background-color: #7b70a0;
+    color: white;
+    border-radius: 6rem;
+    padding-inline: 2rem;
+}
+.register button:hover{
+    opacity: 85%;
+    transition: 0.25s;
+}
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+    padding: 1rem;
+    height: 1.7rem;
+}
+.bar {
+    display: block;
+    width: 2rem;
+    border-radius: 2rem;
+    height: 0.2rem;
+    background-color: black;
+}
