@@ -20,7 +20,7 @@ button {
 }
 button:hover {
     cursor: pointer;
-    color: #31a78f;
+    color: #3e9e8b;
     transition: 0.2s;
 }
 ul {
