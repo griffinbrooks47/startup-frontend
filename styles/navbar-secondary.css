@@ -1,0 +1,25 @@
+.navbar-secondary {
+    height: 3.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 1rem;
+}
+
+.secondary-nav-buttons-section {
+    margin-inline: 0rem;
+}
+.secondary-nav-buttons-section li{
+    padding-inline: 2rem;
+    margin-inline: 2rem;
+}
+.secondary-nav-buttons-section a{
+    padding: 0;
+}
+.secondary-nav-buttons-section button {
+    padding-inline: 0;
+    padding-block: 0.7rem;
+    color: rgb(39, 39, 39);
+    font-weight: 300;
+    font-size: 0.9rem;
+}

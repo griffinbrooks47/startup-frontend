@@ -7,8 +7,8 @@
 
 
 /** NavBar Container **/
-.navbar {
-    height: 5rem;
+.navbar-primary {
+    height: 4.3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,8 +26,8 @@
     margin-right: 2rem;
 }
 .logo {
-    max-width: 3rem;
-    max-height: 3rem;
+    max-width: 2.5rem;
+    max-height: 2.5rem;
     padding-right: 1rem;
     padding-top: 0.4rem;
 }
@@ -42,7 +42,7 @@
 
     /** NavBar Buttons Divs*/
 .nav-buttons-section {
-    margin-inline: 0rem;
+    margin-inline: 1.5rem;
 }
 .nav-buttons-section li{
     padding-inline: 0rem;
@@ -52,7 +52,7 @@
 }
 .nav-buttons-section button {
     padding-inline: 1.8rem;
-    padding-block: 1.1rem;
+    padding-block: 0.7rem;
 }
 
     /** User Buttons*/
@@ -66,6 +66,31 @@
     opacity: 85%;
     transition: 0.25s;
 }
+
+.navbar-searchbar {
+    position: relative;
+}
+.navbar-searchbar-field {
+    height: 40%;
+    width: 17rem;
+    padding-block: 0.5rem;
+    border: none;
+    margin-left: 1.5rem;
+    margin-bottom: 0;
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    background-color: rgb(226, 226, 226);
+    border-radius: 2rem;
+}
+.search-icon {
+    width: 1rem;
+    height: 1rem;
+    position: absolute;
+    top: 0.51rem;
+    left: 2.5rem;
+    opacity: 55%;
+}
+
 
 /** Hamburger Menu*/
 .hamburger-menu {
