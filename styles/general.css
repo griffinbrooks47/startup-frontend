@@ -6,9 +6,13 @@ body {
 hr {
     border-top: 0.05rem solid #cdcccc;
     border-bottom: none;
-    margin-inline: 1rem;
+    margin-inline: 1.5rem;
     margin-block: 0;
     border-radius: 100rem;
+}
+hr[class="full"]{
+    margin-inline: 0;
+    opacity: 80%;
 }
 button {
     font-family: 'Heebo', sans-serif;
@@ -37,7 +41,4 @@ li, a{
 }
 button {
     letter-spacing: 0.025rem;
-}
-section {
-    background-color: beige;
 }
