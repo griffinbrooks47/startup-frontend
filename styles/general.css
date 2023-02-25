@@ -4,7 +4,8 @@ body {
     font-family: 'Heebo', sans-serif;
 }
 hr {
-    border-top: 0.1rem solid #cdcccc;
+    border-top: 0.05rem solid #cdcccc;
+    border-bottom: none;
     margin-inline: 1rem;
     margin-block: 0;
     border-radius: 100rem;
