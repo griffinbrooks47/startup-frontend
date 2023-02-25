@@ -21,8 +21,6 @@ button {
 }
 button:hover {
     cursor: pointer;
-    color: #3e9e8b;
-    transition: 0.2s;
 }
 ul {
     display: flex;

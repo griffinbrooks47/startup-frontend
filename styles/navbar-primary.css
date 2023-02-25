@@ -41,6 +41,11 @@
 .left-buttons, .user-buttons {
     position: relative;
 }
+.navbar-primary button[class="button-generic"]:hover {
+    color: #3e9e8b;
+    margin-bottom: 0.15rem;
+    transition: color 0.2s margin-bottom 0.4s;
+}
 
     /** NavBar Buttons Divs*/
 .nav-buttons-section {
@@ -58,6 +63,7 @@
 }
 
     /** User Buttons*/
+
 .register button{
     background-color: #3e9e8b;
     color: white;
