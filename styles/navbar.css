@@ -7,59 +7,67 @@
 
 
 /** NavBar Container **/
-nav {
+.navbar {
     height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-inline: 1rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
 }
+.primary-navbar-left, .primary-navbar-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/** NavBar Logo*/
 .nav-logo {
-    padding-left: 0rem;
-    padding-top: 0.1rem;
+    padding: 0;
+    margin-right: 2rem;
 }
 .logo {
     max-width: 3rem;
     max-height: 3rem;
-    padding-inline: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.4rem;
 }
 .co-name {
-    padding-bottom: 0.2rem;
     font-weight: 500;
 }
 
 /** NavBar Buttons */
-.center-buttons, .user-buttons {
+.left-buttons, .user-buttons {
     position: relative;
 }
-nav li {
-    list-style: none;
+
+    /** NavBar Buttons Divs*/
+.nav-buttons-section {
+    margin-inline: 0rem;
 }
-.center-buttons li a{
-    display: block;
-    text-decoration: none;
-    margin-left: 2.1rem;
-    margin-right: 2.1rem;
+.nav-buttons-section li{
+    padding-inline: 0rem;
 }
-.user-buttons {
-    margin-right: 1.5rem;
+.nav-buttons-section a{
+    padding: 0.2rem;
 }
-.user-buttons li a{
-    display: block;
-    text-decoration: none;
-    margin-left: 0rem;
-    margin-right: 1rem;
+.nav-buttons-section button {
+    padding-inline: 1.8rem;
+    padding-block: 1.1rem;
 }
+
+    /** User Buttons*/
 .register button{
-    background-color: #7b70a0;
+    background-color: #31a78f;
     color: white;
     border-radius: 6rem;
-    padding-inline: 2rem;
+    width: 100%;
 }
 .register button:hover{
     opacity: 85%;
     transition: 0.25s;
 }
+
+/** Hamburger Menu*/
 .hamburger-menu {
     display: none;
     cursor: pointer;

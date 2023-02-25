@@ -11,20 +11,27 @@ button {
     border: none;
     color: black;
     height: 50%;
-    padding-block: 1rem;
-    padding-inline: 1rem;
 }
 button:hover {
-    opacity: 70%;
+    cursor: pointer;
+    color: #31a78f;
     transition: 0.2s;
 }
 ul {
     display: flex;
     align-items: center;
     height: 100%;
+    padding: 0;
 }
-li, a, button {
+li, a{
     cursor: pointer;
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+}
+button {
+    letter-spacing: 0.025rem;
 }
 section {
     background-color: beige;
